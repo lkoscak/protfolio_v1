@@ -1,0 +1,22 @@
+{
+	"name": "portfolio_v1",
+	"version": "1.0.0",
+	"description": "Personal portfolio v1",
+	"main": "index.js",
+	"scripts": {
+		"sass": "node-sass -w scss/ -o dist/css/ --recursive"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/lkoscak/protfolio_v1.git"
+	},
+	"author": "Luka Košćak",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/lkoscak/protfolio_v1/issues"
+	},
+	"homepage": "https://github.com/lkoscak/protfolio_v1#readme",
+	"dependencies": {
+		"node-sass": "^4.13.1"
+	}
+}
